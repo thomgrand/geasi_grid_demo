@@ -1,0 +1,5 @@
+numpy >= 1.07
+scikit-fmm
+scipy
+matplotlib
+jupyter-notebook
