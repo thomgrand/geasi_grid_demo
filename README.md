@@ -1,6 +1,5 @@
 # GEASI Demo
-This repository contains a minimal working example of our algorithm presented in GEASI: Geodesics-based Earliest Activation Sequence
-Identification in cardiac eikonal models *TODO: Link*. The main steps of the algorithm are similar, but to offer a concise and short code some simplifying assumptions were made (see Limitations).
+This repository contains a minimal working example of our algorithm presented in [GEASI: Geodesic-based Earliest Activation Sites Identification in cardiac models](https://arxiv.org/abs/2102.09962). The main steps of the algorithm are similar, but to offer a concise and short code some simplifying assumptions were made (see Limitations).
 
 The method is demonstrated in [GEASI_Grid.ipynb](GEASI_Grid.ipynb), whereas [utils.py](utils.py) contains some utility functions to keep the code short. The presented problem is similar to the square-domain example of the paper with slightly varying results due to the deviations from the original algorithm.
 
@@ -28,8 +27,19 @@ While this repository is meant as a demonstration of the algorithm, several simp
 
 # Acknowledgements
 
-If this work (or a part of it) helps you in your research, please consider acknowledging the github repository, or citing our paper.
-The paper describing the method in detail is currently available on arXiv, but we will update the repository with the reference once it has
-been published.
+If this work (or a part of it) helps you in your research, please consider acknowledging the github repository, or citing our [paper](https://arxiv.org/abs/2102.09962).
 
-*TODO: Placeholder*
+```
+@article{grandits_geasi_2021,
+	title = {{GEASI}: {Geodesic}-based {Earliest} {Activation} {Sites} {Identification} in cardiac models},
+	shorttitle = {{GEASI}},
+	url = {http://arxiv.org/abs/2102.09962},
+	urldate = {2021-02-22},
+	journal = {arXiv:2102.09962 [cs, math]},
+	author = {Grandits, Thomas and Effland, Alexander and Pock, Thomas and Krause, Rolf and Plank, Gernot and Pezzuto, Simone},
+	month = feb,
+	year = {2021},
+	note = {arXiv: 2102.09962},
+	keywords = {92B05, 35Q93, 65K10, 35F21, 35F20, Mathematics - Numerical Analysis, Mathematics - Optimization and Control}
+}
+```
